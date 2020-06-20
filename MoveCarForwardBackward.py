@@ -26,7 +26,7 @@ def FindPosition (a):
             # speed*= -2
             # position+=speed
             
-    for i in range(count+1, len(a)):
+    for i in range(count, len(a)):
         if (a[i] == 'A'):
             position-=speed
             speed*=2
