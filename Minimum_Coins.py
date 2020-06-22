@@ -20,5 +20,5 @@ def min_coins(cents,coins):
             
     return (count)
 
-coins =[2,1]
-print(min_coins(7,coins))
+coins =[25,10,5,1]
+print(min_coins(43,coins))
